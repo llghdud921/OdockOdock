@@ -1,0 +1,632 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F3984B7029B5890A003FA0C8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3984B6F29B5890A003FA0C8 /* AppDelegate.swift */; };
+		F3984B7229B5890A003FA0C8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3984B7129B5890A003FA0C8 /* SceneDelegate.swift */; };
+		F3984B7429B5890A003FA0C8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3984B7329B5890A003FA0C8 /* ViewController.swift */; };
+		F3984B7729B5890A003FA0C8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3984B7529B5890A003FA0C8 /* Main.storyboard */; };
+		F3984B7A29B5890A003FA0C8 /* OdockOdock.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F3984B7829B5890A003FA0C8 /* OdockOdock.xcdatamodeld */; };
+		F3984B7C29B5890B003FA0C8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3984B7B29B5890B003FA0C8 /* Assets.xcassets */; };
+		F3984B7F29B5890B003FA0C8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3984B7D29B5890B003FA0C8 /* LaunchScreen.storyboard */; };
+		F3984B8A29B5890B003FA0C8 /* OdockOdockTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3984B8929B5890B003FA0C8 /* OdockOdockTests.swift */; };
+		F3984B9429B5890B003FA0C8 /* OdockOdockUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3984B9329B5890B003FA0C8 /* OdockOdockUITests.swift */; };
+		F3984B9629B5890B003FA0C8 /* OdockOdockUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3984B9529B5890B003FA0C8 /* OdockOdockUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F3984B8629B5890B003FA0C8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F3984B6429B5890A003FA0C8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F3984B6B29B5890A003FA0C8;
+			remoteInfo = OdockOdock;
+		};
+		F3984B9029B5890B003FA0C8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F3984B6429B5890A003FA0C8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F3984B6B29B5890A003FA0C8;
+			remoteInfo = OdockOdock;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F3984B6C29B5890A003FA0C8 /* OdockOdock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OdockOdock.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3984B6F29B5890A003FA0C8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F3984B7129B5890A003FA0C8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F3984B7329B5890A003FA0C8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F3984B7629B5890A003FA0C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F3984B7929B5890A003FA0C8 /* OdockOdock.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = OdockOdock.xcdatamodel; sourceTree = "<group>"; };
+		F3984B7B29B5890B003FA0C8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F3984B7E29B5890B003FA0C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F3984B8029B5890B003FA0C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F3984B8529B5890B003FA0C8 /* OdockOdockTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OdockOdockTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3984B8929B5890B003FA0C8 /* OdockOdockTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OdockOdockTests.swift; sourceTree = "<group>"; };
+		F3984B8F29B5890B003FA0C8 /* OdockOdockUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OdockOdockUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3984B9329B5890B003FA0C8 /* OdockOdockUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OdockOdockUITests.swift; sourceTree = "<group>"; };
+		F3984B9529B5890B003FA0C8 /* OdockOdockUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OdockOdockUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F3984B6929B5890A003FA0C8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3984B8229B5890B003FA0C8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3984B8C29B5890B003FA0C8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F3984B6329B5890A003FA0C8 = {
+			isa = PBXGroup;
+			children = (
+				F3984B6E29B5890A003FA0C8 /* OdockOdock */,
+				F3984B8829B5890B003FA0C8 /* OdockOdockTests */,
+				F3984B9229B5890B003FA0C8 /* OdockOdockUITests */,
+				F3984B6D29B5890A003FA0C8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F3984B6D29B5890A003FA0C8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F3984B6C29B5890A003FA0C8 /* OdockOdock.app */,
+				F3984B8529B5890B003FA0C8 /* OdockOdockTests.xctest */,
+				F3984B8F29B5890B003FA0C8 /* OdockOdockUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F3984B6E29B5890A003FA0C8 /* OdockOdock */ = {
+			isa = PBXGroup;
+			children = (
+				F3984BA229B5897C003FA0C8 /* Application */,
+				F3984B7329B5890A003FA0C8 /* ViewController.swift */,
+				F3984B7529B5890A003FA0C8 /* Main.storyboard */,
+				F3984B7B29B5890B003FA0C8 /* Assets.xcassets */,
+				F3984B7D29B5890B003FA0C8 /* LaunchScreen.storyboard */,
+				F3984B8029B5890B003FA0C8 /* Info.plist */,
+				F3984B7829B5890A003FA0C8 /* OdockOdock.xcdatamodeld */,
+			);
+			path = OdockOdock;
+			sourceTree = "<group>";
+		};
+		F3984B8829B5890B003FA0C8 /* OdockOdockTests */ = {
+			isa = PBXGroup;
+			children = (
+				F3984B8929B5890B003FA0C8 /* OdockOdockTests.swift */,
+			);
+			path = OdockOdockTests;
+			sourceTree = "<group>";
+		};
+		F3984B9229B5890B003FA0C8 /* OdockOdockUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F3984B9329B5890B003FA0C8 /* OdockOdockUITests.swift */,
+				F3984B9529B5890B003FA0C8 /* OdockOdockUITestsLaunchTests.swift */,
+			);
+			path = OdockOdockUITests;
+			sourceTree = "<group>";
+		};
+		F3984BA229B5897C003FA0C8 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				F3984B6F29B5890A003FA0C8 /* AppDelegate.swift */,
+				F3984B7129B5890A003FA0C8 /* SceneDelegate.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F3984B6B29B5890A003FA0C8 /* OdockOdock */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F3984B9929B5890B003FA0C8 /* Build configuration list for PBXNativeTarget "OdockOdock" */;
+			buildPhases = (
+				F3984B6829B5890A003FA0C8 /* Sources */,
+				F3984B6929B5890A003FA0C8 /* Frameworks */,
+				F3984B6A29B5890A003FA0C8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OdockOdock;
+			productName = OdockOdock;
+			productReference = F3984B6C29B5890A003FA0C8 /* OdockOdock.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F3984B8429B5890B003FA0C8 /* OdockOdockTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F3984B9C29B5890B003FA0C8 /* Build configuration list for PBXNativeTarget "OdockOdockTests" */;
+			buildPhases = (
+				F3984B8129B5890B003FA0C8 /* Sources */,
+				F3984B8229B5890B003FA0C8 /* Frameworks */,
+				F3984B8329B5890B003FA0C8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F3984B8729B5890B003FA0C8 /* PBXTargetDependency */,
+			);
+			name = OdockOdockTests;
+			productName = OdockOdockTests;
+			productReference = F3984B8529B5890B003FA0C8 /* OdockOdockTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F3984B8E29B5890B003FA0C8 /* OdockOdockUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F3984B9F29B5890B003FA0C8 /* Build configuration list for PBXNativeTarget "OdockOdockUITests" */;
+			buildPhases = (
+				F3984B8B29B5890B003FA0C8 /* Sources */,
+				F3984B8C29B5890B003FA0C8 /* Frameworks */,
+				F3984B8D29B5890B003FA0C8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F3984B9129B5890B003FA0C8 /* PBXTargetDependency */,
+			);
+			name = OdockOdockUITests;
+			productName = OdockOdockUITests;
+			productReference = F3984B8F29B5890B003FA0C8 /* OdockOdockUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F3984B6429B5890A003FA0C8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					F3984B6B29B5890A003FA0C8 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					F3984B8429B5890B003FA0C8 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = F3984B6B29B5890A003FA0C8;
+					};
+					F3984B8E29B5890B003FA0C8 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = F3984B6B29B5890A003FA0C8;
+					};
+				};
+			};
+			buildConfigurationList = F3984B6729B5890A003FA0C8 /* Build configuration list for PBXProject "OdockOdock" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F3984B6329B5890A003FA0C8;
+			productRefGroup = F3984B6D29B5890A003FA0C8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F3984B6B29B5890A003FA0C8 /* OdockOdock */,
+				F3984B8429B5890B003FA0C8 /* OdockOdockTests */,
+				F3984B8E29B5890B003FA0C8 /* OdockOdockUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F3984B6A29B5890A003FA0C8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3984B7F29B5890B003FA0C8 /* LaunchScreen.storyboard in Resources */,
+				F3984B7C29B5890B003FA0C8 /* Assets.xcassets in Resources */,
+				F3984B7729B5890A003FA0C8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3984B8329B5890B003FA0C8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3984B8D29B5890B003FA0C8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F3984B6829B5890A003FA0C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3984B7429B5890A003FA0C8 /* ViewController.swift in Sources */,
+				F3984B7029B5890A003FA0C8 /* AppDelegate.swift in Sources */,
+				F3984B7229B5890A003FA0C8 /* SceneDelegate.swift in Sources */,
+				F3984B7A29B5890A003FA0C8 /* OdockOdock.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3984B8129B5890B003FA0C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3984B8A29B5890B003FA0C8 /* OdockOdockTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3984B8B29B5890B003FA0C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3984B9629B5890B003FA0C8 /* OdockOdockUITestsLaunchTests.swift in Sources */,
+				F3984B9429B5890B003FA0C8 /* OdockOdockUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F3984B8729B5890B003FA0C8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F3984B6B29B5890A003FA0C8 /* OdockOdock */;
+			targetProxy = F3984B8629B5890B003FA0C8 /* PBXContainerItemProxy */;
+		};
+		F3984B9129B5890B003FA0C8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F3984B6B29B5890A003FA0C8 /* OdockOdock */;
+			targetProxy = F3984B9029B5890B003FA0C8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F3984B7529B5890A003FA0C8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F3984B7629B5890A003FA0C8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F3984B7D29B5890B003FA0C8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F3984B7E29B5890B003FA0C8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F3984B9729B5890B003FA0C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F3984B9829B5890B003FA0C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F3984B9A29B5890B003FA0C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CADXU3X8JU;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = OdockOdock/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = hoyoung.OdockOdock;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F3984B9B29B5890B003FA0C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CADXU3X8JU;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = OdockOdock/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = hoyoung.OdockOdock;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F3984B9D29B5890B003FA0C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CADXU3X8JU;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = hoyoung.OdockOdockTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OdockOdock.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/OdockOdock";
+			};
+			name = Debug;
+		};
+		F3984B9E29B5890B003FA0C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CADXU3X8JU;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = hoyoung.OdockOdockTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OdockOdock.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/OdockOdock";
+			};
+			name = Release;
+		};
+		F3984BA029B5890B003FA0C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CADXU3X8JU;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = hoyoung.OdockOdockUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = OdockOdock;
+			};
+			name = Debug;
+		};
+		F3984BA129B5890B003FA0C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CADXU3X8JU;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = hoyoung.OdockOdockUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = OdockOdock;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F3984B6729B5890A003FA0C8 /* Build configuration list for PBXProject "OdockOdock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3984B9729B5890B003FA0C8 /* Debug */,
+				F3984B9829B5890B003FA0C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F3984B9929B5890B003FA0C8 /* Build configuration list for PBXNativeTarget "OdockOdock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3984B9A29B5890B003FA0C8 /* Debug */,
+				F3984B9B29B5890B003FA0C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F3984B9C29B5890B003FA0C8 /* Build configuration list for PBXNativeTarget "OdockOdockTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3984B9D29B5890B003FA0C8 /* Debug */,
+				F3984B9E29B5890B003FA0C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F3984B9F29B5890B003FA0C8 /* Build configuration list for PBXNativeTarget "OdockOdockUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3984BA029B5890B003FA0C8 /* Debug */,
+				F3984BA129B5890B003FA0C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		F3984B7829B5890A003FA0C8 /* OdockOdock.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				F3984B7929B5890A003FA0C8 /* OdockOdock.xcdatamodel */,
+			);
+			currentVersion = F3984B7929B5890A003FA0C8 /* OdockOdock.xcdatamodel */;
+			path = OdockOdock.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = F3984B6429B5890A003FA0C8 /* Project object */;
+}
