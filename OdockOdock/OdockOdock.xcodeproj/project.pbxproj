@@ -568,7 +568,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = CADXU3X8JU;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = OdockOdock/Info.plist;
+				INFOPLIST_FILE = OdockOdock/Resources/Info.plist;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.books";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
@@ -599,7 +599,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = CADXU3X8JU;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = OdockOdock/Info.plist;
+				INFOPLIST_FILE = OdockOdock/Resources/Info.plist;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.books";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
