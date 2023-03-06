@@ -24,6 +24,7 @@
 		F3984BB829B5ED02003FA0C8 /* OOColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3984BB729B5ED02003FA0C8 /* OOColor.swift */; };
 		F3984BBD29B5EF08003FA0C8 /* OOFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3984BBC29B5EF08003FA0C8 /* OOFont.swift */; };
 		F3984BBF29B5F05C003FA0C8 /* BaseTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3984BBE29B5F05B003FA0C8 /* BaseTabBarController.swift */; };
+		F3984BC329B5F610003FA0C8 /* OOTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3984BC229B5F610003FA0C8 /* OOTabBarController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,6 +65,7 @@
 		F3984BBB29B5EEE3003FA0C8 /* PretendardVariable.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = PretendardVariable.ttf; sourceTree = "<group>"; };
 		F3984BBC29B5EF08003FA0C8 /* OOFont.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OOFont.swift; sourceTree = "<group>"; };
 		F3984BBE29B5F05B003FA0C8 /* BaseTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseTabBarController.swift; sourceTree = "<group>"; };
+		F3984BC229B5F610003FA0C8 /* OOTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OOTabBarController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -166,6 +168,7 @@
 		F3984BA429B5A075003FA0C8 /* Presentation */ = {
 			isa = PBXGroup;
 			children = (
+				F3984BC029B5F57F003FA0C8 /* Feature */,
 				F3984BA929B5DFFC003FA0C8 /* Common */,
 				F3984B7329B5890A003FA0C8 /* ViewController.swift */,
 			);
@@ -229,6 +232,22 @@
 				F3984BBC29B5EF08003FA0C8 /* OOFont.swift */,
 			);
 			path = Font;
+			sourceTree = "<group>";
+		};
+		F3984BC029B5F57F003FA0C8 /* Feature */ = {
+			isa = PBXGroup;
+			children = (
+				F3984BC129B5F5A4003FA0C8 /* TabBar */,
+			);
+			path = Feature;
+			sourceTree = "<group>";
+		};
+		F3984BC129B5F5A4003FA0C8 /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				F3984BC229B5F610003FA0C8 /* OOTabBarController.swift */,
+			);
+			path = TabBar;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -376,6 +395,7 @@
 				F3984B7229B5890A003FA0C8 /* SceneDelegate.swift in Sources */,
 				F3984BB829B5ED02003FA0C8 /* OOColor.swift in Sources */,
 				F3984B7A29B5890A003FA0C8 /* OdockOdock.xcdatamodeld in Sources */,
+				F3984BC329B5F610003FA0C8 /* OOTabBarController.swift in Sources */,
 				F3984BBD29B5EF08003FA0C8 /* OOFont.swift in Sources */,
 				F3984BB329B5E5E0003FA0C8 /* BaseViewModel.swift in Sources */,
 			);
