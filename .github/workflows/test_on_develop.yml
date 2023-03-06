@@ -17,4 +17,4 @@ jobs:
 
       - name: Start xcode build 🛠
         run: |
-          xcodebuild clean test -project OdockOdock/OdockOdock.xcodeproj -scheme OdockOdock -destination 'platform=iOS Simulator,name=iPhone 14 Pro,OS=15.0'
+          xcodebuild clean test -project OdockOdock/OdockOdock.xcodeproj -scheme OdockOdock -destination 'platform=iOS Simulator,name=iPhone 14 Pro,OS=latest'
