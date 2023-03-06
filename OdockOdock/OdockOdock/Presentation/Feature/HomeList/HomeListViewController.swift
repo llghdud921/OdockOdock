@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  HomeListViewController.swift
 //  OdockOdock
 //
 //  Created by 이호영 on 2023/03/06.
@@ -7,7 +7,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class HomeListViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
