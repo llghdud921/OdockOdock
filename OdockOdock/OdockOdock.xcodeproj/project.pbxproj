@@ -16,6 +16,15 @@
 		F3984B8A29B5890B003FA0C8 /* OdockOdockTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3984B8929B5890B003FA0C8 /* OdockOdockTests.swift */; };
 		F3984B9429B5890B003FA0C8 /* OdockOdockUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3984B9329B5890B003FA0C8 /* OdockOdockUITests.swift */; };
 		F3984B9629B5890B003FA0C8 /* OdockOdockUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3984B9529B5890B003FA0C8 /* OdockOdockUITestsLaunchTests.swift */; };
+		F3984BAB29B5E009003FA0C8 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3984BAA29B5E009003FA0C8 /* BaseViewController.swift */; };
+		F3984BAE29B5E049003FA0C8 /* RxCocoa in Frameworks */ = {isa = PBXBuildFile; productRef = F3984BAD29B5E049003FA0C8 /* RxCocoa */; };
+		F3984BB029B5E049003FA0C8 /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = F3984BAF29B5E049003FA0C8 /* RxSwift */; };
+		F3984BB329B5E5E0003FA0C8 /* BaseViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3984BB229B5E5E0003FA0C8 /* BaseViewModel.swift */; };
+		F3984BB529B5EA31003FA0C8 /* BaseNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3984BB429B5EA31003FA0C8 /* BaseNavigationController.swift */; };
+		F3984BB829B5ED02003FA0C8 /* OOColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3984BB729B5ED02003FA0C8 /* OOColor.swift */; };
+		F3984BBD29B5EF08003FA0C8 /* OOFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3984BBC29B5EF08003FA0C8 /* OOFont.swift */; };
+		F3984BBF29B5F05C003FA0C8 /* BaseTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3984BBE29B5F05B003FA0C8 /* BaseTabBarController.swift */; };
+		F3984BC329B5F610003FA0C8 /* OOTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3984BC229B5F610003FA0C8 /* OOTabBarController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +58,14 @@
 		F3984B8F29B5890B003FA0C8 /* OdockOdockUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OdockOdockUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3984B9329B5890B003FA0C8 /* OdockOdockUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OdockOdockUITests.swift; sourceTree = "<group>"; };
 		F3984B9529B5890B003FA0C8 /* OdockOdockUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OdockOdockUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F3984BAA29B5E009003FA0C8 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		F3984BB229B5E5E0003FA0C8 /* BaseViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewModel.swift; sourceTree = "<group>"; };
+		F3984BB429B5EA31003FA0C8 /* BaseNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseNavigationController.swift; sourceTree = "<group>"; };
+		F3984BB729B5ED02003FA0C8 /* OOColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OOColor.swift; sourceTree = "<group>"; };
+		F3984BBB29B5EEE3003FA0C8 /* PretendardVariable.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = PretendardVariable.ttf; sourceTree = "<group>"; };
+		F3984BBC29B5EF08003FA0C8 /* OOFont.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OOFont.swift; sourceTree = "<group>"; };
+		F3984BBE29B5F05B003FA0C8 /* BaseTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseTabBarController.swift; sourceTree = "<group>"; };
+		F3984BC229B5F610003FA0C8 /* OOTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OOTabBarController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +73,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F3984BB029B5E049003FA0C8 /* RxSwift in Frameworks */,
+				F3984BAE29B5E049003FA0C8 /* RxCocoa in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,6 +156,8 @@
 		F3984BA329B5A052003FA0C8 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				F3984BB629B5ECC4003FA0C8 /* Color */,
+				F3984BB929B5EED3003FA0C8 /* Font */,
 				F3984B8029B5890B003FA0C8 /* Info.plist */,
 				F3984B7D29B5890B003FA0C8 /* LaunchScreen.storyboard */,
 				F3984B7B29B5890B003FA0C8 /* Assets.xcassets */,
@@ -147,6 +168,8 @@
 		F3984BA429B5A075003FA0C8 /* Presentation */ = {
 			isa = PBXGroup;
 			children = (
+				F3984BC029B5F57F003FA0C8 /* Feature */,
+				F3984BA929B5DFFC003FA0C8 /* Common */,
 				F3984B7329B5890A003FA0C8 /* ViewController.swift */,
 			);
 			path = Presentation;
@@ -175,6 +198,58 @@
 			path = CoreDataModel;
 			sourceTree = "<group>";
 		};
+		F3984BA929B5DFFC003FA0C8 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				F3984BB129B5E5CD003FA0C8 /* BaseController */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		F3984BB129B5E5CD003FA0C8 /* BaseController */ = {
+			isa = PBXGroup;
+			children = (
+				F3984BAA29B5E009003FA0C8 /* BaseViewController.swift */,
+				F3984BB229B5E5E0003FA0C8 /* BaseViewModel.swift */,
+				F3984BB429B5EA31003FA0C8 /* BaseNavigationController.swift */,
+				F3984BBE29B5F05B003FA0C8 /* BaseTabBarController.swift */,
+			);
+			path = BaseController;
+			sourceTree = "<group>";
+		};
+		F3984BB629B5ECC4003FA0C8 /* Color */ = {
+			isa = PBXGroup;
+			children = (
+				F3984BB729B5ED02003FA0C8 /* OOColor.swift */,
+			);
+			path = Color;
+			sourceTree = "<group>";
+		};
+		F3984BB929B5EED3003FA0C8 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				F3984BBB29B5EEE3003FA0C8 /* PretendardVariable.ttf */,
+				F3984BBC29B5EF08003FA0C8 /* OOFont.swift */,
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
+		F3984BC029B5F57F003FA0C8 /* Feature */ = {
+			isa = PBXGroup;
+			children = (
+				F3984BC129B5F5A4003FA0C8 /* TabBar */,
+			);
+			path = Feature;
+			sourceTree = "<group>";
+		};
+		F3984BC129B5F5A4003FA0C8 /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				F3984BC229B5F610003FA0C8 /* OOTabBarController.swift */,
+			);
+			path = TabBar;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -191,6 +266,10 @@
 			dependencies = (
 			);
 			name = OdockOdock;
+			packageProductDependencies = (
+				F3984BAD29B5E049003FA0C8 /* RxCocoa */,
+				F3984BAF29B5E049003FA0C8 /* RxSwift */,
+			);
 			productName = OdockOdock;
 			productReference = F3984B6C29B5890A003FA0C8 /* OdockOdock.app */;
 			productType = "com.apple.product-type.application";
@@ -263,6 +342,9 @@
 				Base,
 			);
 			mainGroup = F3984B6329B5890A003FA0C8;
+			packageReferences = (
+				F3984BAC29B5E049003FA0C8 /* XCRemoteSwiftPackageReference "RxSwift" */,
+			);
 			productRefGroup = F3984B6D29B5890A003FA0C8 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -305,10 +387,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F3984BAB29B5E009003FA0C8 /* BaseViewController.swift in Sources */,
+				F3984BB529B5EA31003FA0C8 /* BaseNavigationController.swift in Sources */,
+				F3984BBF29B5F05C003FA0C8 /* BaseTabBarController.swift in Sources */,
 				F3984B7429B5890A003FA0C8 /* ViewController.swift in Sources */,
 				F3984B7029B5890A003FA0C8 /* AppDelegate.swift in Sources */,
 				F3984B7229B5890A003FA0C8 /* SceneDelegate.swift in Sources */,
+				F3984BB829B5ED02003FA0C8 /* OOColor.swift in Sources */,
 				F3984B7A29B5890A003FA0C8 /* OdockOdock.xcdatamodeld in Sources */,
+				F3984BC329B5F610003FA0C8 /* OOTabBarController.swift in Sources */,
+				F3984BBD29B5EF08003FA0C8 /* OOFont.swift in Sources */,
+				F3984BB329B5E5E0003FA0C8 /* BaseViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -479,7 +568,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = CADXU3X8JU;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = OdockOdock/Info.plist;
+				INFOPLIST_FILE = OdockOdock/Resources/Info.plist;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.books";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
@@ -510,7 +599,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = CADXU3X8JU;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = OdockOdock/Info.plist;
+				INFOPLIST_FILE = OdockOdock/Resources/Info.plist;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.books";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
@@ -648,6 +737,30 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		F3984BAC29B5E049003FA0C8 /* XCRemoteSwiftPackageReference "RxSwift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ReactiveX/RxSwift";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		F3984BAD29B5E049003FA0C8 /* RxCocoa */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F3984BAC29B5E049003FA0C8 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxCocoa;
+		};
+		F3984BAF29B5E049003FA0C8 /* RxSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F3984BAC29B5E049003FA0C8 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		F3984B7829B5890A003FA0C8 /* OdockOdock.xcdatamodeld */ = {
