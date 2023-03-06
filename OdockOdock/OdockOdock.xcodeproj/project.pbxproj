@@ -99,12 +99,11 @@
 		F3984B6E29B5890A003FA0C8 /* OdockOdock */ = {
 			isa = PBXGroup;
 			children = (
+				F3984BA629B5A08A003FA0C8 /* Data */,
+				F3984BA529B5A082003FA0C8 /* Domain */,
+				F3984BA429B5A075003FA0C8 /* Presentation */,
+				F3984BA329B5A052003FA0C8 /* Resources */,
 				F3984BA229B5897C003FA0C8 /* Application */,
-				F3984B7329B5890A003FA0C8 /* ViewController.swift */,
-				F3984B7B29B5890B003FA0C8 /* Assets.xcassets */,
-				F3984B7D29B5890B003FA0C8 /* LaunchScreen.storyboard */,
-				F3984B8029B5890B003FA0C8 /* Info.plist */,
-				F3984B7829B5890A003FA0C8 /* OdockOdock.xcdatamodeld */,
 			);
 			path = OdockOdock;
 			sourceTree = "<group>";
@@ -133,6 +132,47 @@
 				F3984B7129B5890A003FA0C8 /* SceneDelegate.swift */,
 			);
 			path = Application;
+			sourceTree = "<group>";
+		};
+		F3984BA329B5A052003FA0C8 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F3984B8029B5890B003FA0C8 /* Info.plist */,
+				F3984B7D29B5890B003FA0C8 /* LaunchScreen.storyboard */,
+				F3984B7B29B5890B003FA0C8 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		F3984BA429B5A075003FA0C8 /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				F3984B7329B5890A003FA0C8 /* ViewController.swift */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		F3984BA529B5A082003FA0C8 /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		F3984BA629B5A08A003FA0C8 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				F3984BA729B5A095003FA0C8 /* CoreDataModel */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		F3984BA729B5A095003FA0C8 /* CoreDataModel */ = {
+			isa = PBXGroup;
+			children = (
+				F3984B7829B5890A003FA0C8 /* OdockOdock.xcdatamodeld */,
+			);
+			path = CoreDataModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
