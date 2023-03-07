@@ -8,6 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		F362184C29B6217C005A0C8F /* HomeListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F362184B29B6217C005A0C8F /* HomeListViewController.swift */; };
+		F362184F29B623BC005A0C8F /* HomeListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F362184E29B623BC005A0C8F /* HomeListViewModel.swift */; };
+		F362185229B62BA3005A0C8F /* BookCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F362185129B62BA3005A0C8F /* BookCollectionView.swift */; };
+		F362185629B62C29005A0C8F /* BookCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F362185529B62C29005A0C8F /* BookCollectionViewCell.swift */; };
+		F362185829B63289005A0C8F /* BookCollectionViewCompositionalLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = F362185729B63289005A0C8F /* BookCollectionViewCompositionalLayout.swift */; };
+		F362185A29B65095005A0C8F /* HomeBookSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = F362185929B65095005A0C8F /* HomeBookSection.swift */; };
+		F362185D29B650F5005A0C8F /* Book.swift in Sources */ = {isa = PBXBuildFile; fileRef = F362185C29B650F5005A0C8F /* Book.swift */; };
 		F3984B7029B5890A003FA0C8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3984B6F29B5890A003FA0C8 /* AppDelegate.swift */; };
 		F3984B7229B5890A003FA0C8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3984B7129B5890A003FA0C8 /* SceneDelegate.swift */; };
 		F3984B7A29B5890A003FA0C8 /* OdockOdock.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F3984B7829B5890A003FA0C8 /* OdockOdock.xcdatamodeld */; };
@@ -46,6 +52,12 @@
 
 /* Begin PBXFileReference section */
 		F362184B29B6217C005A0C8F /* HomeListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeListViewController.swift; sourceTree = "<group>"; };
+		F362184E29B623BC005A0C8F /* HomeListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeListViewModel.swift; sourceTree = "<group>"; };
+		F362185129B62BA3005A0C8F /* BookCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookCollectionView.swift; sourceTree = "<group>"; };
+		F362185529B62C29005A0C8F /* BookCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookCollectionViewCell.swift; sourceTree = "<group>"; };
+		F362185729B63289005A0C8F /* BookCollectionViewCompositionalLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookCollectionViewCompositionalLayout.swift; sourceTree = "<group>"; };
+		F362185929B65095005A0C8F /* HomeBookSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeBookSection.swift; sourceTree = "<group>"; };
+		F362185C29B650F5005A0C8F /* Book.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Book.swift; sourceTree = "<group>"; };
 		F3984B6C29B5890A003FA0C8 /* OdockOdock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OdockOdock.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3984B6F29B5890A003FA0C8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F3984B7129B5890A003FA0C8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -99,8 +111,29 @@
 			isa = PBXGroup;
 			children = (
 				F362184B29B6217C005A0C8F /* HomeListViewController.swift */,
+				F362184E29B623BC005A0C8F /* HomeListViewModel.swift */,
+				F362185029B62B7B005A0C8F /* SubViews */,
 			);
 			path = HomeList;
+			sourceTree = "<group>";
+		};
+		F362185029B62B7B005A0C8F /* SubViews */ = {
+			isa = PBXGroup;
+			children = (
+				F362185129B62BA3005A0C8F /* BookCollectionView.swift */,
+				F362185529B62C29005A0C8F /* BookCollectionViewCell.swift */,
+				F362185729B63289005A0C8F /* BookCollectionViewCompositionalLayout.swift */,
+				F362185929B65095005A0C8F /* HomeBookSection.swift */,
+			);
+			path = SubViews;
+			sourceTree = "<group>";
+		};
+		F362185B29B650E1005A0C8F /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				F362185C29B650F5005A0C8F /* Book.swift */,
+			);
+			path = Entity;
 			sourceTree = "<group>";
 		};
 		F3984B6329B5890A003FA0C8 = {
@@ -185,6 +218,7 @@
 		F3984BA529B5A082003FA0C8 /* Domain */ = {
 			isa = PBXGroup;
 			children = (
+				F362185B29B650E1005A0C8F /* Entity */,
 			);
 			path = Domain;
 			sourceTree = "<group>";
@@ -398,14 +432,20 @@
 				F3984BAB29B5E009003FA0C8 /* BaseViewController.swift in Sources */,
 				F3984BB529B5EA31003FA0C8 /* BaseNavigationController.swift in Sources */,
 				F3984BBF29B5F05C003FA0C8 /* BaseTabBarController.swift in Sources */,
+				F362184F29B623BC005A0C8F /* HomeListViewModel.swift in Sources */,
 				F3984B7029B5890A003FA0C8 /* AppDelegate.swift in Sources */,
 				F3984B7229B5890A003FA0C8 /* SceneDelegate.swift in Sources */,
 				F3984BB829B5ED02003FA0C8 /* OOColor.swift in Sources */,
+				F362185629B62C29005A0C8F /* BookCollectionViewCell.swift in Sources */,
 				F362184C29B6217C005A0C8F /* HomeListViewController.swift in Sources */,
+				F362185A29B65095005A0C8F /* HomeBookSection.swift in Sources */,
 				F3984B7A29B5890A003FA0C8 /* OdockOdock.xcdatamodeld in Sources */,
 				F3984BC329B5F610003FA0C8 /* OOTabBarController.swift in Sources */,
+				F362185229B62BA3005A0C8F /* BookCollectionView.swift in Sources */,
 				F3984BBD29B5EF08003FA0C8 /* OOFont.swift in Sources */,
 				F3984BB329B5E5E0003FA0C8 /* BaseViewModel.swift in Sources */,
+				F362185829B63289005A0C8F /* BookCollectionViewCompositionalLayout.swift in Sources */,
+				F362185D29B650F5005A0C8F /* Book.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
