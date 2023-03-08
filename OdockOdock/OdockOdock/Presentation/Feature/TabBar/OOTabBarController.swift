@@ -18,9 +18,9 @@ final class OOTabBarController: BaseTabBarController {
 
     /// TabBar를 구성하는 ViewControllers를 생성하고 ViewControllers를 설정
     func configure() {
-        let homeViewController = ViewController()
-        homeViewController.tabBarItem = UITabBarItem(title: "Home", image: nil, tag: 0)
+        let homeListViewController = HomeListViewController()
+        homeListViewController.tabBarItem = UITabBarItem(title: "Home", image: nil, tag: 0)
         
-        self.viewControllers = [homeViewController]
+        self.viewControllers = [homeListViewController]
     }
 }
